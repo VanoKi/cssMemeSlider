@@ -7,37 +7,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="center">
-    <div class="carousel">
-      <ul class="scroll" scroll-behavior="smooth">
-        <li class="scroll-item-outer">
-          <div id="slide-1" class="scroll-item">
-            <img src="https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2084&q=80">
+  <div class="all">
+    <input type="radio" name="respond" id="desktop" checked>
+    <article id="slider">
+      <input type="radio" name="slider" id="swithc1" checked>
+      <input type="radio" name="slider" id="swithc2">
+      <input type="radio" name="slider" id="swithc3">
+      <input type="radio" name="slider" id="swithc4">
+
+      <div id="slides">
+        <div id="overflow">
+          <div class="image">
+              <article><img src="img/1.jpeg" alt="1"></article>
+              <article><img src="img/2.jpg" alt="2"></article>
+              <article><img src="img/3.jpg" alt="3"></article>
+              <article><img src="img/4.jpg" alt="4"></article>
           </div>
-        </li>
-        <li class="scroll-item-outer">
-          <div id="slide-2" class="scroll-item">
-            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80">
-          </div>
-        </li>
-        <li class="scroll-item-outer">
-          <div id="slide-3" class="scroll-item">
-            <img src=https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Picture 3">
-          </div>
-        </li>
-        <li class="scroll-item-outer">
-          <div id="slide-4" class="scroll-item">
-            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Picture 4">
-          </div>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </div>
+      <div id="control">
+        <label for="switch1"></label>
+        <label for="switch2"></label>
+        <label for="switch3"></label>
+        <label for="switch4"></label>
+      </div>
+
+      <div id="active">
+        <label for="switch1"></label>
+        <label for="switch2"></label>
+        <label for="switch3"></label>
+        <label for="switch4"></label>
+      </div>
+
+    </article>
   </div>
-  <nav id="navigate">
-    <a href="#slide-1">1</a>
-    <a href="#slide-2">2</a>
-    <a href="#slide-3">3</a>
-    <a href="#slide-4">4</a>
-  </nav>
 </body>
 </html>
